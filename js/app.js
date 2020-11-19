@@ -1,0 +1,28 @@
+//rate
+let NumRate = document.querySelectorAll('.ratevalue');
+let arr_call_ratevalue = Array.from(NumRate);
+arr_call_ratevalue.forEach(element => {
+    $(".rateYo").rateYo({
+        rating: element.value,
+        starWidth: '15px',
+        numStars: 5,
+        minValue: 0,
+        maxValue: 5,
+        spacing: "5px",
+        readOnly: true,
+        normalFill: '#fff',
+        ratedFill: '#feb808',
+        
+    })    
+});
+
+
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
