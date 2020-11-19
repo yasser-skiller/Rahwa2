@@ -54,7 +54,10 @@ body {
 .card-img-top {
   position: absolute !important;
   bottom: -60px !important;
-  left: -10px !important; }
+  left: -5px !important; }
+  @media (max-width: 500px) {
+    .card-img-top {
+      left: -20px; } }
 
 #slider {
   width: 90%;
