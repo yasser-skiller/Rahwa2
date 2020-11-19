@@ -54,7 +54,7 @@ body {
 .card-img-top {
   position: absolute !important;
   bottom: -60px !important;
-  left: -5px !important; }
+  left: 5px !important; }
 
 #slider {
   width: 90%;
@@ -63,7 +63,7 @@ body {
   #slider .card-img-top {
     position: absolute !important;
     bottom: -75px !important;
-    left: -5px !important; }
+    left: 5px !important; }
 
 .swiper-container {
   width: 100%;

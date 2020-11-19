@@ -4,11 +4,11 @@ let arr_call_ratevalue = Array.from(NumRate);
 arr_call_ratevalue.forEach(element => {
     $(".rateYo").rateYo({
         rating: element.value,
-        starWidth: '15px',
+        starWidth: '12px',
         numStars: 5,
         minValue: 0,
         maxValue: 5,
-        spacing: "5px",
+        spacing: "3px",
         readOnly: true,
         normalFill: '#fff',
         ratedFill: '#feb808',
