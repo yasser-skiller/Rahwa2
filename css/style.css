@@ -71,9 +71,9 @@ body {
   #slider .card-img-top {
     position: absolute !important;
     bottom: -15px !important;
-    left: 110px !important;
-    width: 425px;
-    height: 275px; }
+    left: 115px !important;
+    width: 510px;
+    height: 319px; }
 
 .swiper-slide {
   font-size: 18px;
