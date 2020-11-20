@@ -53,11 +53,11 @@ body {
 
 .card-img-top {
   position: absolute !important;
-  bottom: -60px !important;
-  left: -20px !important; }
-  @media (max-width: 500px) {
-    .card-img-top {
-      left: -20px; } }
+  bottom: -10px !important;
+  left: 0px !important;
+  -webkit-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg); }
 
 .swiper-container {
   width: 100%;
@@ -70,8 +70,16 @@ body {
   margin: 10px 2.5% !important; }
   #slider .card-img-top {
     position: absolute !important;
-    bottom: -75px !important;
-    left: -10px !important; }
+    bottom: -15px !important;
+    left: 10px !important;
+    width: 300px;
+    height: 185px; }
+    @media (max-width: 992px) {
+      #slider .card-img-top {
+        bottom: -12px !important;
+        left: -14px !important;
+        width: 210px;
+        height: 140px; } }
 
 .swiper-slide {
   font-size: 18px;
