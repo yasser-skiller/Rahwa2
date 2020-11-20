@@ -65,21 +65,15 @@ body {
   background: transparent; }
 
 #slider {
-  height: 300px !important;
+  height: 400px !important;
   width: 95% !important;
   margin: 10px 2.5% !important; }
   #slider .card-img-top {
     position: absolute !important;
     bottom: -15px !important;
-    left: 10px !important;
-    width: 300px;
-    height: 185px; }
-    @media (max-width: 992px) {
-      #slider .card-img-top {
-        bottom: -12px !important;
-        left: -14px !important;
-        width: 210px;
-        height: 140px; } }
+    left: 110px !important;
+    width: 425px;
+    height: 275px; }
 
 .swiper-slide {
   font-size: 18px;
