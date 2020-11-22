@@ -130,6 +130,18 @@ body {
   @media (max-width: 420px) {
     .swiper-slide {
       padding: 40px 30px; } }
+  .swiper-slide .card {
+    -webkit-transform: perspective(1500px) rotateY(0deg);
+            transform: perspective(1500px) rotateY(0deg);
+    border-radius: 1rem;
+    -webkit-transition: -webkit-transform .5s ease 0s;
+    transition: -webkit-transform .5s ease 0s;
+    -o-transition: transform .5s ease 0s;
+    transition: transform .5s ease 0s;
+    transition: transform .5s ease 0s, -webkit-transform .5s ease 0s; }
+  .swiper-slide .actions {
+    -webkit-transform: perspective(3000px) rotateY(20deg) !important;
+            transform: perspective(3000px) rotateY(20deg) !important; }
 
 .parallax-bg {
   position: absolute;
