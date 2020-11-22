@@ -39,9 +39,20 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
-
 let cards = document.querySelectorAll('.swiper-slide .card');
 let aa_cards = Array.from(cards);
+
+swiper.on('transitionEnd', function() {
+  console.log('*** mySwiper.realIndex', swiper.realIndex);
+  aa_cards.forEach(element => {
+    element.classList.add('actions');
+    setTimeout(() => {
+      element.classList.remove('actions');
+    }, 700);
+  });
+});
+
+
 // let cpas = document.querySelectorAll('.swiper-pagination-bullet');
 // let aa_cpas = Array.from(cpas);
 function action() {
@@ -52,10 +63,31 @@ function action() {
       element.classList.remove('actions');
     }, 700);
   });
-
 }
+// }
+// let u = document.querySelector('#slider .parallax-bg').style.transform ;
+// document.querySelector('#ds').value = u;
+// document.querySelector('#ds2').value = ;
+
+// setInterval(() => {
+//   // u.addEventListener('change',()=>{
+//     console.log(document.querySelector('#ds').value)
+//   // })
+// }, 0);
+// aa_cards.forEach(element => {
+//   if (element.classList.contains('swiper-slide-active')) {
+//     element.classList.add('actions');
+//     setTimeout(() => {
+//       element.classList.remove('actions');
+//     }, 700);
+    
+//   }
+    
+//   })
+ 
+// });
 aa_cards.forEach(element => {
-  element.addEventListener('mouseenter',()=>{
+  element.addEventListener('touchstart',()=>{
     element.classList.add('actions');
     setTimeout(() => {
       element.classList.remove('actions');
@@ -63,30 +95,7 @@ aa_cards.forEach(element => {
   })
  
 });
-aa_cards.forEach(element => {
-  element.addEventListener('mouseleave',()=>{
-    element.classList.add('actions');
-    setTimeout(() => {
-      element.classList.remove('actions');
-    }, 700);
-  })
- 
-});
-// window.addEventListener('click',()=>{
-//   console.log(7)
-//   aa_cpas.forEach(elem => {
-//     if(elem.classList.contains('swiper-pagination-bullet-active')){
-//       action()
-//     }
-//   });
-// })
-  
 
-
-
-    
-      
-    
   
 
 document.querySelector('.swiper-button-prev').addEventListener('click',()=>{
