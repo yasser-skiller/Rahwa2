@@ -48,7 +48,7 @@ function action() {
     element.classList.add('actions');
     setTimeout(() => {
       element.classList.remove('actions');
-    }, 1000);
+    }, 700);
   });
 
 }
