@@ -40,3 +40,22 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
+let cards = document.querySelectorAll('.swiper-slide .card');
+let aa_cards = Array.from(cards);
+function action() {
+ 
+  aa_cards.forEach(element => {
+    element.classList.add('actions');
+    setTimeout(() => {
+      element.classList.remove('actions');
+    }, 500);
+  });
+
+}
+
+document.querySelector('.swiper-button-prev').addEventListener('click',()=>{
+  action()
+})
+document.querySelector('.swiper-button-next').addEventListener('click',()=>{
+  action()
+})

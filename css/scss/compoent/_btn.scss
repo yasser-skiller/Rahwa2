@@ -1,0 +1,151 @@
+.btn{
+    background-color: $GreenColor;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18;
+    width: 180px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+   
+    &:hover{
+        background-color: $GreenDark;
+    }
+}
+
+.btn_info{
+    background-color: $MainColor;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    @media #{$MaxMobile}{
+        margin-top: 25px;
+    }
+    &:hover{
+        background-color: $MainDerk;
+    }
+}
+
+
+.btn_footer{
+    background-color: $GreenColor;
+    color: #fff;
+    font-weight: 700;
+    font-size: 19;
+    width: 180px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background-color: $GreenDark;
+    }
+}
+
+.cart_btn{
+    background-color: $MainColor;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 0 5px ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background-color: $MainDerk;
+    }
+    a{
+        color: #fff;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        font-size: 16px;
+        .fas{
+            font-size: 12px;
+            margin: auto 0;
+        }
+    }
+}
+.buy_button{
+    width: 60%;
+    margin: 10px auto;
+    background-color: $MainColor;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fff;
+    line-height: 50px;
+    &:hover{
+        background-color: $MainDerk;
+    }
+}
+
+.btn_copon{
+    width: 25%;
+    margin: 0 10px 0 0;
+    background-color: $Green;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fff;
+    &:hover{
+        background-color: #67a739;
+    }
+    a{
+        color: #fff;
+    }
+    
+}
+
+
+.btn_Dach{
+    float: left;
+    width: 135px;
+    margin: 0 10px 0 0;
+    background-color: crimson;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    height: 35px;
+    padding:  5px ;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fff;
+    &:hover{
+        background-color: #ab0a28;
+    }
+    i{
+        padding: 5px 8px 5px 0;
+        margin: 0 5px 0 0;
+        font-size: 15px;
+        border-right: 1px #fff solid;
+    }
+    
+}
