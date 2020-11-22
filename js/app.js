@@ -42,6 +42,8 @@ var swiper = new Swiper('.swiper-container', {
 
 let cards = document.querySelectorAll('.swiper-slide .card');
 let aa_cards = Array.from(cards);
+// let cpas = document.querySelectorAll('.swiper-pagination-bullet');
+// let aa_cpas = Array.from(cpas);
 function action() {
  
   aa_cards.forEach(element => {
@@ -52,6 +54,40 @@ function action() {
   });
 
 }
+aa_cards.forEach(element => {
+  element.addEventListener('mouseenter',()=>{
+    element.classList.add('actions');
+    setTimeout(() => {
+      element.classList.remove('actions');
+    }, 700);
+  })
+ 
+});
+aa_cards.forEach(element => {
+  element.addEventListener('mouseleave',()=>{
+    element.classList.add('actions');
+    setTimeout(() => {
+      element.classList.remove('actions');
+    }, 700);
+  })
+ 
+});
+// window.addEventListener('click',()=>{
+//   console.log(7)
+//   aa_cpas.forEach(elem => {
+//     if(elem.classList.contains('swiper-pagination-bullet-active')){
+//       action()
+//     }
+//   });
+// })
+  
+
+
+
+    
+      
+    
+  
 
 document.querySelector('.swiper-button-prev').addEventListener('click',()=>{
   action()
