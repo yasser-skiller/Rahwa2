@@ -28,7 +28,7 @@ arr_call_ratevalue.forEach(element => {
 //   });
 
 var swiper = new Swiper('.swiper-container', {
-  speed: 1000,
+  speed: 900,
   parallax: true,
   pagination: {
     el: '.swiper-pagination',
