@@ -142,6 +142,9 @@ body {
   .swiper-slide .actions {
     -webkit-transform: perspective(3000px) rotateY(20deg) !important;
             transform: perspective(3000px) rotateY(20deg) !important; }
+  .swiper-slide .REactions {
+    -webkit-transform: perspective(3000px) rotateY(-20deg) !important;
+            transform: perspective(3000px) rotateY(-20deg) !important; }
 
 .parallax-bg {
   position: absolute;

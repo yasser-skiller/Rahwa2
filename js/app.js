@@ -39,17 +39,36 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
 let cards = document.querySelectorAll('.swiper-slide .card');
 let aa_cards = Array.from(cards);
+let x = swiper.realIndex;
 
 swiper.on('transitionStart', function() {
-  console.log('*** mySwiper.realIndex', swiper.realIndex);
-  aa_cards.forEach(element => {
-    element.classList.add('actions');
-    setTimeout(() => {
-      element.classList.remove('actions');
-    }, 700);
-  });
+  console.log('all',x, swiper.realIndex);
+  if(swiper.realIndex > x){
+    aa_cards.forEach(element => {
+      element.classList.add('actions');
+      setTimeout(() => {
+        element.classList.remove('actions');
+      }, 700);
+    });
+    x = swiper.realIndex;
+    console.log('case',x, swiper.realIndex);
+
+  }
+  if(swiper.realIndex < x){
+    aa_cards.forEach(element => {
+      element.classList.add('REactions');
+      setTimeout(() => {
+        element.classList.remove('REactions');
+      }, 700);
+    });
+    x = swiper.realIndex;
+    console.log( 'sorry',x, swiper.realIndex);
+
+  }
+  
 });
 
 
