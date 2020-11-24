@@ -148,11 +148,11 @@ body {
       .swiper-slide .card {
         height: 320px !important; } }
   .swiper-slide .actions {
-    -webkit-transform: perspective(3000px) rotateY(25deg) !important;
-            transform: perspective(3000px) rotateY(25deg) !important; }
+    -webkit-transform: perspective(3000px) rotateY(30deg) !important;
+            transform: perspective(3000px) rotateY(30deg) !important; }
   .swiper-slide .REactions {
-    -webkit-transform: perspective(3000px) rotateY(-25deg) !important;
-            transform: perspective(3000px) rotateY(-25deg) !important; }
+    -webkit-transform: perspective(3000px) rotateY(-30deg) !important;
+            transform: perspective(3000px) rotateY(-30deg) !important; }
 
 .parallax-bg {
   position: absolute;
