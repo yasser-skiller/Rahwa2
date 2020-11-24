@@ -53,7 +53,9 @@ body {
 
 @media (max-width: 567px) {
   #first_sec {
-    padding: 0 2rem !important; } }
+    padding: 0 2rem !important; }
+    #first_sec h5, #first_sec h6 {
+      font-size: 12px !important; } }
 
 @media (max-width: 367px) {
   #first_sec {
@@ -63,7 +65,7 @@ body {
   height: 200px !important; }
   @media (max-width: 567px) {
     #first_sec .card {
-      height: 225px !important; } }
+      height: 200px !important; } }
 
 #first_sec .card-img-top {
   position: absolute !important;
@@ -127,24 +129,30 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 60px; }
-  @media (max-width: 420px) {
+  @media (max-width: 567px) {
     .swiper-slide {
       padding: 40px 30px; } }
+  @media (max-width: 420px) {
+    .swiper-slide {
+      padding: 40px 15px; } }
   .swiper-slide .card {
-    -webkit-transform: perspective(1500px) rotateY(0deg);
-            transform: perspective(1500px) rotateY(0deg);
+    -webkit-transform: perspective(1000px) rotateY(0deg);
+            transform: perspective(1000px) rotateY(0deg);
     border-radius: 1rem;
-    -webkit-transition: -webkit-transform .5s ease 0s;
-    transition: -webkit-transform .5s ease 0s;
-    -o-transition: transform .5s ease 0s;
-    transition: transform .5s ease 0s;
-    transition: transform .5s ease 0s, -webkit-transform .5s ease 0s; }
+    -webkit-transition: -webkit-transform 1s ease 0s;
+    transition: -webkit-transform 1s ease 0s;
+    -o-transition: transform 1s ease 0s;
+    transition: transform 1s ease 0s;
+    transition: transform 1s ease 0s, -webkit-transform 1s ease 0s; }
+    @media (max-width: 567px) {
+      .swiper-slide .card {
+        height: 320px !important; } }
   .swiper-slide .actions {
-    -webkit-transform: perspective(3000px) rotateY(20deg) !important;
-            transform: perspective(3000px) rotateY(20deg) !important; }
+    -webkit-transform: perspective(3000px) rotateY(25deg) !important;
+            transform: perspective(3000px) rotateY(25deg) !important; }
   .swiper-slide .REactions {
-    -webkit-transform: perspective(3000px) rotateY(-20deg) !important;
-            transform: perspective(3000px) rotateY(-20deg) !important; }
+    -webkit-transform: perspective(3000px) rotateY(-25deg) !important;
+            transform: perspective(3000px) rotateY(-25deg) !important; }
 
 .parallax-bg {
   position: absolute;
