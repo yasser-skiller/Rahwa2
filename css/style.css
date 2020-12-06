@@ -345,7 +345,7 @@ a {
 .Details .decribtions {
   text-align: right;
   font-size: 16px;
-  color: #fff; }
+  color: #000; }
 
 .Details .size_product,
 .Details .color_product {
@@ -506,6 +506,12 @@ a {
   margin-top: 0; }
   .sp_header .Main_title p {
     color: #fff; }
+
+.f-family-titlte {
+  font-family: 'El Messiri', sans-serif; }
+
+.f-family-txt {
+  font-family: 'El Messiri', sans-serif; }
 
 .logo-top-img {
   width: 200px;
