@@ -184,7 +184,7 @@ html {
 body {
   font-family: "cairo", sans-serif;
   overflow-x: hidden !important;
-  background-color: #f8f8f8 !important; }
+  background-color: #efefef !important; }
 
 .rlt {
   direction: rtl !important; }
@@ -313,7 +313,7 @@ html {
 body {
   font-family: "cairo", sans-serif;
   overflow-x: hidden !important;
-  background-color: #f8f8f8 !important; }
+  background-color: #efefef !important; }
 
 .rlt {
   direction: rtl !important; }
@@ -507,81 +507,6 @@ a {
   .sp_header .Main_title p {
     color: #fff; }
 
-.f-family-titlte {
-  font-family: 'El Messiri', sans-serif; }
-
-.f-family-txt {
-  font-family: 'El Messiri', sans-serif; }
-
-.logo-top-img {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 100px;
-  left: 155px; }
-
-.mt-sec {
-  margin-top: 10rem !important; }
-
-.vertical-txt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  -webkit-text-orientation: mixed;
-          text-orientation: mixed;
-  color: #b89467; }
-
-.sec-tit {
-  color: #bd4b1f;
-  text-align: center; }
-
-.sec3-color {
-  color: #42a4a3; }
-
-.font-size-20 {
-  font-size: 20px;
-  font-weight: 700; }
-
-.sec4-color {
-  color: #d6a25a;
-  border: #d6a25a 2px solid; }
-
-.sec2-img {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 20px;
-  right: 40px; }
-
-.up-border {
-  width: 475px;
-  height: 200px;
-  position: absolute;
-  top: -15px;
-  left: 30px;
-  background-color: transparent;
-  border: #b89467 2px solid; }
-
-.up-borser-sec3 {
-  width: 275px;
-  height: 325px;
-  position: absolute;
-  top: -25px;
-  left: -25px;
-  background-color: transparent;
-  border: #b89467 2px solid; }
-
-.img-4 {
-  position: absolute;
-  bottom: -30px;
-  left: 10px; }
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -594,7 +519,7 @@ html {
 body {
   font-family: "cairo", sans-serif;
   overflow-x: hidden !important;
-  background-color: #f8f8f8 !important; }
+  background-color: #efefef !important; }
 
 .rlt {
   direction: rtl !important; }

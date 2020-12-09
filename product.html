@@ -9,7 +9,7 @@
     <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">   
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jquery.rateyo.min.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d24b72e522.js" crossorigin="anonymous"></script>
   </head>
@@ -36,7 +36,9 @@
 
   
         <div class="big-img pr-2" style="position: relative;">
-          <a href="img/slider/flo.png" data-lightbox="roadtrip" class="gl"><img id="mainImgK" src="img/product.png" alt=""></a>
+          <a href="img/product.png" data-lightbox="roadtrip" class="gl"><img id="mainImgK" src="img/product.png" alt=""></a>
+          <img src="img/next.png" class="Next" style="position: absolute;top: 50%;right: 10px;width: 35px;height: 35px;cursor: pointer;">
+          <img src="img/prev.png" class="pre" style="position: absolute;top: 50%;left: 10px;width: 35px;height: 35px; cursor: pointer;">
         </div>
 
 
@@ -45,11 +47,11 @@
           <section class="slider_pro ">
             
             <div class="smaller">
-              <img src="img/product.png" alt="" class="mySlider">
-              <img src="img/722-4-380x380.jpg" alt="" class="mySlider">
-              <img src="img/722-3-380x380.jpg" alt="" class="mySlider">
-              <img src="img/722-2-380x380.jpg" alt="" class="mySlider">
-              <img src="img/IMG_0009-3.jpg" alt="" class="mySlider">
+              <a href="#" ><img src="img/product.png" alt="" class="mySlider"></a>
+              <a href="#" ><img src="img/722-4-380x380.jpg" alt="" class="mySlider"></a>
+              <a href="#" ><img src="img/722-3-380x380.jpg" alt="" class="mySlider"></a>
+              <a href="#" ><img src="img/722-2-380x380.jpg" alt="" class="mySlider"></a>
+              <a href="#" ><img src="img/IMG_0009-3.jpg" alt="" class="mySlider"></a>
             </div>
           </section>  
 
@@ -93,6 +95,8 @@
 
 
     <script src="js/app.js"></script>
+    <script src="js/imageGellary.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 
   </body>
 </html>
