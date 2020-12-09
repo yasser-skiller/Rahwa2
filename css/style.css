@@ -202,7 +202,7 @@ ul, ol {
   padding: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 .header {
   display: -webkit-box;
@@ -331,7 +331,7 @@ ul, ol {
   padding: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 .Details .title_product {
   margin-top: 9px;
@@ -537,4 +537,4 @@ ul, ol {
   padding: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none !important; }
